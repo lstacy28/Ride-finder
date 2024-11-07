@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Ride Finder</h1>
+		<p>How should you get to your destination?</p>
+	</header>
+
+	<center>
+<!-- Below we are creating labels and asigning id's to each  -->
+    <label>Weather: </label>
+    <select id="Weather">
+      <option value="Sunny">Sunny</option>
+      <option value="Snowing">Snowing</option>
+      <option value="Raining">Raining</option><br><br>
+      <select
+    <label>Age: </label>
+    <input type="text" id="Age"><br><br>
+    <label>Traffic: </label>
+    <input type="text" id="Traffic"><br><br>
+    <label>Distance: </label>
+    <input type="text" id="Distance"><br><br>
+    </div>
+
+    
+    <button onclick="findRide()">Find a Ride</button>
+
+    <div class="outputBox">
+      <h2></h2>
+  	  <img width="20%"src="qr.png">
+		  <p id="output"> </p>
+	  </div>
+
+  </center>
+    <script src="script.js"></script>
+  </body>
+</html>

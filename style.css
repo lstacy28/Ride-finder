@@ -1,0 +1,25 @@
+body{
+    background: burlywood;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+    color: black;
+    }
+    h1{
+    font-weight: bold;
+    }
+
+.info {
+    text-align: center;
+}
+input{
+    width:100px
+}
+label{
+    display: inline-block;
+    width:75px;
+    text-align: right;
+
+}
+
