@@ -54,7 +54,7 @@ else if (
     ||
     (distance <= 2 && age >= 16 && traffic == "Moderate")
     || 
-    (distance <= 1 && age >= 16 && traffice == "Light")
+    (distance <= 1 && age >= 16 && traffic == "Light")
     )
 ){
     var functionResult = setResult("Take a walk","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpLJNO5cdhzrvJbKNHhON5mJBuqdQZwkxcuw&s");
@@ -70,7 +70,7 @@ else if (
     ||
     (distance <= 2 && age >= 16 && traffic == "Moderate")
     || 
-    (distance <= 1 && age >= 16 && traffice == "Light")
+    (distance <= 1 && age >= 16 && traffic == "Light")
     )
 ){
     var functionResult = setResult("Take a walk with an umbrella","https://as1.ftcdn.net/v2/jpg/03/78/76/58/1000_F_378765846_Q4srp1aCGo9VWuxvVVQxFzKBvdf0M67d.jpg");
