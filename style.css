@@ -1,3 +1,5 @@
+/* This is changing the color of the background and
+changing the positioning, font, color, and weight of the header and subheader.  */
 body{
     background: burlywood;
     text-align: center;
@@ -5,21 +7,48 @@ body{
     }
     p{
     color: black;
+    font-weight: bold;
     }
     h1{
     font-weight: bold;
     }
-
-.info {
-    text-align: center;
-}
+/* This is changing the width, font, and size of where you input text. */
 input{
-    width:100px
+    width:32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
+/* This is aligning and changing the width of the labels. */
 label{
     display: inline-block;
-    width:75px;
-    text-align: right;
-
+    width: 77px;
+    text-align:right;
 }
+/* This is changing the font and size of the text in the select menus. */
+select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* This is changing the color, size, font, and placement of the button. */
+  button{
+    background-color: rgb(186, 142, 84);
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+  }
+  /* This is changing the dimensions and border of the output box.
+  The period before is there because the outputBox is defined through a class. */
+  .outputBox{
+    padding: 1px;
+    min-height: 124px;
+    width: 60%;
+    border: 1px solid;
+    margin: 0px;
+  }
+  /* This is changing the font and size of the text in the outputBox. 
+  A hashtag is used because output is defined as a id.*/
+ #output{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 
+ }

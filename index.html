@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html>
-
+<!-- This is the base to all html scripts -->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>replit</title>
+  <!-- here we are linking the html to the style.css -->
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
+<!-- Inside the body we make the header and subheader name -->
 <body>
 	<header>
 		<h1>Ride Finder</h1>
 		<p>How should you get to your destination?</p>
 	</header>
+  <br>
 
 	<center>
-<!-- Below we are creating labels and asigning id's to each  -->
+<!-- Below we are creating labels and assigning ids to each text box -->
+   
+  <label>Age:</label>
+    <input type="number" min="0" id="Age"> Years<br><br>
+    <label>Distance:</label>
+    <input type="number" min="0" id="Distance"> Miles<br><br>
+    <label>Traffic: </label>
+    <select id="Traffic">
+      <option value="Light">Light</option>
+      <option value="Moderate">Moderate</option>
+      <option value="Heavy">Heavy</option>
+    </select>
+      <br>
+      <br>
     <label>Weather: </label>
     <select id="Weather">
       <option value="Sunny">Sunny</option>
+      <option value="Raining">Raining</option>
       <option value="Snowing">Snowing</option>
-      <option value="Raining">Raining</option><br><br>
       <select
-    <label>Age: </label>
-    <input type="text" id="Age"><br><br>
-    <label>Traffic: </label>
-    <input type="text" id="Traffic"><br><br>
-    <label>Distance: </label>
-    <input type="text" id="Distance"><br><br>
+      <br>
+      <br>
+      <br>
     </div>
 
-    
+    <!-- This code creates a button and labels it with a identifier -->
     <button onclick="findRide()">Find a Ride</button>
-
+<!-- Here we are creating and configuring an outputBox
+ that we can later put a image in -->
     <div class="outputBox">
-      <h2></h2>
-  	  <img width="20%"src="qr.png">
+  	  <img width="90%" id="image">
 		  <p id="output"> </p>
 	  </div>
-
+<!-- Below we are linking our html to our javascript -->
   </center>
     <script src="script.js"></script>
   </body>
